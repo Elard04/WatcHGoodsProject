@@ -1,0 +1,1895 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+/* Homepage */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    left: 0px;
+    position: fixed;
+    background-color: #F0D27F;
+    width: 1440px;
+    z-index: 1;
+    overflow:hidden;
+}
+
+#logo{
+    width: 169px;
+    height: 130px;
+    float: left;
+}
+  
+nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li{
+    float: right;
+    padding: 54px 16px 16px 16px;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+}
+  
+nav li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+  
+nav li a:hover{
+    background-color: #c0c0c0;
+}
+
+#slider img{
+    width: 1440px;
+    height: 500px;
+    padding-top: 100px;
+}
+
+#previous-banner, #next-banner{
+    border: none;
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 70px;
+}
+
+#previous-banner{
+    left: 0px;
+}
+
+#next-banner{
+    right: 0px;
+}
+
+#slides{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+#slides::-webkit-scrollbar{
+    display: none;
+}
+
+#kotakbrand{
+    width: 1229px;
+    height: 250px;
+    background-color: #F0D27F;
+    margin: 30px 109px 0px 109px;
+    border-radius: 35px;
+    position:relative;
+}
+
+#brandkami{
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    right: 500px;
+    left: 500px;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+
+#line{
+    width: 1229px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 65px;
+}
+
+#previous{
+    font-size: 59px;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+}
+
+#next{
+    font-size: 59px;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+#kotak1{
+    width: 323px;
+    height: 122px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    border-radius: 30px;
+}
+
+#kotak2{
+    width: 323px;
+    height: 122px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 455px;
+    right: 500px;
+    border-radius: 30px;
+}
+
+#kotak3{
+    width: 323px;
+    height: 122px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    border-radius: 30px;
+}
+
+#rolex{
+    position: absolute;
+    width: 370px;
+    height: 180px;
+    top: 75px;
+    left: 55px;
+}
+
+#rm{
+    position: absolute;
+    width: 335px;
+    height: 165px;
+    top: 80px;
+    left: 450px;
+    right: 455px;
+}
+
+#coach{
+    position: absolute;
+    width: 370px;
+    height: 180px;
+    top: 75px;
+    right: 55px;
+}
+
+#gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    margin-left: 25px;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+#jam-tangan-pria{
+    width: 435px;
+    height: 410px;
+    border-radius: 30px;
+}
+
+#jam-tangan-pasangan{
+    width: 435px;
+    height: 410px;
+    border-radius: 30px;
+}
+
+#jam-tangan-wanita{
+    width: 435px;
+    height: 410px;
+    border-radius: 30px;
+}
+
+#kelebihan1{
+    margin-top: 30px;
+    font-family: 'Play', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#kelebihan1 img{
+    float: left;
+    width: 389px;
+    height: 384px;
+}
+
+#textbox{
+    margin-top: 120px;
+}
+
+#textbox h3{
+    font-family: 'Lustria', serif;
+    font-size: 35px;
+    color: #F6B92C;
+    text-align: left;
+}
+
+#textbox p{
+    font-family: 'Lustria', serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+#kelebihan2{
+    float: left;
+}
+
+#textbox2{
+    margin-top: 100px;
+}
+
+#textbox2 h3{
+    font-family: 'Lustria', serif;
+    font-size: 35px;
+    color: #F6B92C;
+    text-align: left;
+}
+
+#textbox2 p{
+    font-family: 'Lustria', serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+#kelebihan3{
+    float: left;
+}
+
+#textbox3{
+    margin-top: 100px;
+}
+
+#textbox3 h3{
+    font-family: 'Lustria', serif;
+    font-size: 35px;
+    color: #F6B92C;
+    text-align: left;
+}
+
+#textbox3 p{
+    font-family: 'Lustria', serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+footer{
+    width: 1440px;
+    height: 400px;
+    background-color: #F0D27F;
+    position: relative;
+}
+
+footer ul{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 55px;  
+}
+
+footer ul li{
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-align: left;
+}
+
+#informasi{
+    left: 500px;
+}
+
+#metode{
+    position: absolute;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    top: 10px;
+    left: 850px;
+}
+
+#mastercard{
+    position: absolute;
+    width: 260px;
+    height: 88px;
+    background-color: white;
+    border-radius: 20px;
+    top: 60px;
+    right: 325px;
+}
+
+#mastercard img{
+    width: 100px;
+    height: 65px;
+    padding-top: 12px;
+    padding-left: 80px;
+}
+
+#ovo{
+    position: absolute;
+    width: 260px;
+    height: 88px;
+    background-color: white;
+    border-radius: 20px;
+    top: 60px;
+    right: 50px;
+}
+
+#ovo img{
+    width: 190px;
+    height: 65px;
+    padding-top: 13px;
+    padding-left: 40px;
+}
+
+#gopay{
+    position: absolute;
+    width: 260px;
+    height: 88px;
+    background-color: white;
+    border-radius: 20px;
+    top: 160px;
+    right: 325px; 
+}
+
+#gopay img{
+    width: 175px;
+    height: 93px;
+    padding-top: 0px;
+    padding-left: 45px;
+}
+
+#alamat span{
+    position: absolute;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 275px;
+    left: 30px;
+}
+
+#hakcipta{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 18px;
+    float: right;
+    padding-top: 285px;
+}
+
+/* Location Page */
+#titlelokasi{
+    font-family:'Play', sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#lokasi{
+    overflow: auto;
+}
+
+#lokasi1{
+    width: 500px;
+    height: 428px;
+    background-color: #c0c0c0;
+    margin-top: 20px;
+    margin-left: 175px;
+    float: left;
+    border-radius: 30px;
+    position: relative;
+}
+
+#fotolokasi1{
+    width: 500px;
+    height: 285px;
+    position: absolute;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#negara{
+    width: 85px;
+    position: absolute;
+}
+
+#textlokasi1-title{
+    position: absolute;
+    padding-top: 285px;
+    padding-left: 95px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#textlokasi1-alamat{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 20px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#textlokasi1-nomortelepon{
+    position: absolute;
+    padding-top: 385px;
+    padding-left: 350px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#lokasi2{
+    width: 500px;
+    height: 428px;
+    background-color: #c0c0c0;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: right;
+    margin-right: 175px;
+    border-radius: 30px;
+    position: relative;
+}
+
+#fotolokasi2{
+    width: 500px;
+    height: 285px;
+    position: absolute;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#textlokasi2-title{
+    position: absolute;
+    padding-top: 285px;
+    padding-left: 95px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#textlokasi2-alamat{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 20px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#textlokasi2-nomortelepon{
+    position: absolute;
+    padding-top: 385px;
+    padding-left: 350px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#lokasi3{
+    width: 500px;
+    height: 428px;
+    background-color: #c0c0c0;
+    margin-top: 20px;
+    margin-left: 175px;
+    float: left;
+    border-radius: 30px;
+    position: relative;
+}
+
+#fotolokasi3{
+    width: 500px;
+    height: 285px;
+    position: absolute;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#textlokasi3-title{
+    position: absolute;
+    padding-top: 285px;
+    padding-left: 95px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#textlokasi3-alamat{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 20px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#textlokasi3-nomortelepon{
+    position: absolute;
+    padding-top: 385px;
+    padding-left: 350px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#lokasi4{
+    width: 500px;
+    height: 428px;
+    background-color: #c0c0c0;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: right;
+    margin-right: 175px;
+    border-radius: 30px;
+    position: relative;
+}
+
+#fotolokasi4{
+    width: 500px;
+    height: 285px;
+    position: absolute;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#textlokasi4-title{
+    position: absolute;
+    padding-top: 285px;
+    padding-left: 95px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#textlokasi4-alamat{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 20px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#textlokasi4-nomortelepon{
+    position: absolute;
+    padding-top: 385px;
+    padding-left: 350px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* About Us */
+#teamwork{
+    width: 1440px;
+    height: 650px;
+    position: relative;
+    margin-top: -60px;
+}
+
+#about-us{
+    font-family:'Play', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 230px;
+    right: 50px;
+}
+
+#office{
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: -140px;
+    margin-left: 35px;
+    float: left;
+    position: relative;
+}
+
+#sejarah{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 300px;
+    letter-spacing: 10px;
+}
+
+#deskripsi-sejarah1{
+    text-align: left;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+#deskripsi-sejarah2{
+    text-align: left;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 35px;
+}
+
+#workers{
+    position: relative;
+    width: 750px;
+    height: 800px;
+    float: right;
+    margin-top: 370px;
+    margin-right: -140px;
+}
+
+#visi{
+    position: absolute;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 500px;
+}
+
+#deskripsi-visi{
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 570px;
+    right: 500px;
+    left: 20px;
+}
+
+#misi{
+    position: absolute;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 700px;
+    margin-left: -2px;
+}
+
+#deskripsi-misi1{
+    text-align: left;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 770px;
+    right: 500px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#deskripsi-misi2{
+    text-align: left;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 870px;
+    right: 500px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#deskripsi-misi3{
+    text-align: left;
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 970px;
+    right: 500px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#team{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 160px;
+    letter-spacing: 10px;
+}
+
+#gridcontainer1{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    margin-top: 1200px;
+    grid-gap: 100px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 25px;
+}
+
+#gridcontainer1 img{
+    width: 350px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+#gridcontainer1 span{
+    font-family: 'Forum', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Contact Us */
+#kontak-kami{
+    font-family:'Play', sans-serif;
+    font-size: 50px;
+    margin-left: 578px;
+}
+
+#kotak-background{
+    width: 1322px;
+    height: 892px;
+    background-color: #F0D27F;
+    margin-top: 20px;
+    margin-left: 55px;
+    border-radius: 30px;
+    /* position: relative; */
+}
+
+#square1{
+    width: 519px;
+    height: 590px;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 150px;
+    left: 110px;
+}
+
+#square2{
+    position: absolute;
+    width: 519px;
+    height: 152px;
+    background-color: #964B00;
+    border-radius: 50px 50px 0px 0px;
+    left: 0px;
+    top: 0px;
+}
+
+#kontak-header{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 85px;
+}
+
+#gridcontainer2{
+    display: grid;
+    grid-template-columns: repeat(1,4fr);
+}
+
+#gridcontainer2 img{
+    width: 204px;
+    height: 204px;
+    margin-top: -100px;
+}
+
+#logo-telepon{
+    position: absolute;
+    top: 218px;
+}
+
+#logo-website{
+    position: absolute;
+    top: 312px;
+}
+
+#logo-email{
+    position: absolute;
+    top: 406px;
+}
+
+#logo-location{
+    position: absolute;
+    top: 500px;
+}
+
+#gridcontainer2 span{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+#logo-telepon span{
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    margin-left: 250px;
+}
+
+#logo-website span{
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    margin-left: 250px;
+}
+
+#logo-email span{
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    margin-left: 250px;
+}
+
+#logo-location span{
+    position: absolute;
+    left: 150px;
+    top: -16px;
+}
+
+#garis{
+    width: 3px;
+    height: 892px;
+    background-color:white;
+    position: absolute;
+    top: 240px;
+    left: 760px;
+}
+
+#form{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 33px;
+    position: absolute;
+    margin-left: 800px;
+    top: 300px;
+}
+
+#nama{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: -60px;
+    top: 70px;
+}
+
+#kolom-nama{
+    width: 562px;
+    height: 53px;
+    position: absolute;
+    left: -60px;
+    top: 120px;
+}
+
+#umur{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: -60px;
+    top: 170px;
+}
+
+#kolom-umur{
+    width: 79px;
+    height: 53px;
+    position: absolute;
+    top: 215px;
+    left: -60px;
+}
+
+#laki-laki{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    top: 215px;
+}
+
+#kolom-sex1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 203px;
+}
+
+#perempuan{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: 300px;
+    top: 215px;
+}
+
+#kolom-sex2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 275px;
+}
+
+#email{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: -60px;
+    top: 270px;
+}
+
+#kolom-email{
+    width: 562px;
+    height: 53px;
+    position: absolute;
+    left: -60px;
+    top: 320px;
+}
+
+#country{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: -60px;
+    top: 375px;
+}
+
+#kolom-negara{
+    width: 562px;
+    height: 53px;
+    position: absolute;
+    left: -60px;
+    top: 420px;
+}
+
+#message{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: -60px;
+    top: 470px;
+}
+
+#kolom-pesan{
+    width: 562px;
+    height: 200px;
+    position: absolute;
+    left: -60px;
+    top: 510px;
+}
+
+#kolom-setuju{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 745px;
+    left: -60px;
+}
+
+#setuju{
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    left: -25px;
+    top: 737px;
+}
+
+#kirim{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #964B00;
+    color: white;
+    top: 780px;
+    right: -40px;
+    font-family:'Ramabhadra', sans-serif;
+    font-size: 15px;
+}
+
+#error{
+    color: red;
+    position: absolute;
+    top: 805px;
+    font-family:'Ramabhadra', sans-serif;
+    font-size: 15px;
+    left: -25px;
+}
+
+/* Products */
+#banner-produk{
+    width: 1440px;
+    height: 500px;
+    position: relative;
+}
+
+#produk-title{
+    font-family:'Play', sans-serif;
+    font-size: 75px;
+    margin-left: 400px;
+    color: white;
+    position: absolute;
+    top: 360px;
+    left: -375px;
+}
+
+#kolom-rolex{
+    width: 150px;
+    height: 40px;
+    background-color: #F0D27F;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#kolom-rolex span{
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    font-family:'Ramabhadra', sans-serif;
+}
+
+#produk{
+    position: relative;
+    overflow: hidden;
+}
+
+#kolom-produk{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+#kolom-produk::-webkit-scrollbar{
+    display: none;
+}
+
+#kartu-produk{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+    border: 1px solid black;
+}
+
+#foto-rolex img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#deskripsi-rolex{
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+    text-align: center;
+}
+
+#previous, #next{
+    border: none;
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#previous{
+    left: 0px;
+}
+
+#next{
+    right: 0px;
+}
+
+#nama-produk-rolex{
+    font-family:'Play', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#harga-rolex{
+    font-family:'Ramabhadra', sans-serif;
+    font-size: 15px;
+    color: red;
+    margin-left: 30px;
+}
+
+#kolom-rm{
+    width: 150px;
+    height: 40px;
+    background-color: #F0D27F;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#kolom-rm span{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-family:'Ramabhadra', sans-serif;
+}
+
+#produk1{
+    position: relative;
+    overflow: hidden;
+}
+
+#previous1{
+    left: 0px;
+}
+
+#next1{
+    right: 0px;
+}
+
+#previous1, #next1{
+    border: none;
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 70px;
+}
+
+#kolom-produk1{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+#kolom-produk1::-webkit-scrollbar{
+    display: none;
+}
+
+#foto-rm img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#kolom-coach{
+    width: 150px;
+    height: 40px;
+    background-color: #F0D27F;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#kolom-coach span{
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    font-family:'Ramabhadra', sans-serif;
+}
+
+#produk2{
+    position: relative;
+    overflow: hidden;
+}
+
+#previous2{
+    left: 0px;
+}
+
+#next2{
+    right: 0px;
+}
+
+#previous2, #next2{
+    border: none;
+    width: 40px;
+    height: 75px;
+    position: absolute;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 70px;
+}
+
+#kolom-produk2{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+#kolom-produk2::-webkit-scrollbar{
+    display: none;
+}
+
+#foto-coach img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+@media (max-width: 800px){
+    /* Homepage */
+    /* nav ul li{
+        float: left;
+    } */
+
+    #slider img{
+        width: 800px;
+    }
+
+    #kotakbrand{
+        width: 700px;
+        margin-left: 45px;
+    }
+
+    #line{
+        width: 700px;
+    }
+
+    #brandkami{
+        right: 0px;
+        left: 20px;
+        top: 15px;
+    }
+
+    #kotak1{
+        width: 220px;
+        top: 97px;
+        left: 10px;
+    }
+
+    #kotak2{
+        width: 220px;
+        top: 97px;
+        left: 240px;
+    }
+
+    #kotak3{
+        width: 220px;
+        top: 97px;
+        right: 10px;
+    }
+
+    #rolex{
+        width: 310px;
+        height: 120px;
+        top: 100px;
+        left: -35px;
+    }
+
+    #rm{
+        width: 240px;
+        height: 130px;
+        top: 95px;
+        left: 231px;
+    }
+
+    #coach{
+        width: 250px;
+        height: 120px;
+        top: 100px;
+        right: -5px;
+    }
+
+    #gridcontainer{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 65px;
+    }
+
+    #jam-tangan-pria{
+        width: 300px;
+        height: 300px;
+    }
+
+    #jam-tangan-pasangan{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #jam-tangan-wanita{
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Product */
+    #banner-produk{
+        width: 800px;
+        height: 400px;
+    }
+
+    #produk-title{
+        font-size: 40px;
+        margin-left: 390px;
+        top: 320px;
+    }
+
+    /* About Us */
+    #teamwork{
+        width: 800px;
+    }
+
+    #about-us{
+        font-size: 45px;
+        right: 20px;
+    }
+
+    #office{
+        width: 270px;
+        height: 400px;
+    }
+
+    #sejarah{
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 29px;
+        margin-top: -150px;
+        margin-left: 100px;
+        letter-spacing: 3px;
+    }
+
+    #deskripsi-sejarah1{
+        font-size: 20px;
+        margin-top: -65px;
+    }
+
+    #deskripsi-sejarah2{
+        font-size: 20px;
+        margin-top: 70px;
+    }
+
+    #workers{
+        width: 550px;
+        height: 650px;
+        margin-top: 250px;
+    }
+
+    #visi{
+        font-size: 29px;
+        letter-spacing: 3px;
+        margin-top: 300px;
+        margin-left: -65px;
+    }
+
+    #deskripsi-visi{
+        font-size: 20px;
+        margin-top: 360px;
+        right: 370px;
+        left: 130px;
+    }
+    
+    #misi{
+        font-size: 29px;
+        letter-spacing: 3px;
+        margin-top: 520px;
+        margin-left: -65px;
+    }
+    
+    #deskripsi-misi1{
+        font-size: 20px;
+        margin-top: 580px;
+        right: 340px;
+        left: 40px;
+    }
+    
+    #deskripsi-misi2{
+        font-size: 20px;
+        margin-top: 660px;
+        right: 340px;
+        left: 40px;
+    }
+    
+    #deskripsi-misi3{
+        font-size: 20px;
+        margin-top: 760px;
+        right: 340px;
+        left: 40px;
+    }
+
+    #team{
+        font-size: 29px;
+        margin-top: 840px;
+        margin-left: 30px;
+        letter-spacing: 3px;
+    }
+
+    #gridcontainer1{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 920px;
+        grid-gap: 30px;
+        margin-left: 120px;
+        margin-right: 90px;
+    }
+
+    #gridcontainer1 img{
+        width: 250px;
+        height: 220px;
+    }
+
+    #gridcontainer1 span{
+        font-size: 20px;
+    }
+
+    /* Contact Us */
+    #kontak-kami{
+        font-size: 40px;
+        margin-left: 300px;
+    }
+
+    #kotak-background{
+        width: 763px;
+        margin-left: 13px;
+    }
+
+    #square1{
+        width: 319px;
+        height: 350px;
+        top: 200px;
+        left: 20px;
+    }
+    
+    #square2{
+        width: 319px;
+        height: 100px;
+    }
+    
+    #kontak-header{
+        font-size: 25px;
+        bottom: 20px;
+        left: 40px;
+    }
+
+    #gridcontainer2{
+        grid-template-columns: repeat(1,4fr);
+    }
+    
+    #gridcontainer2 img{
+        width: 104px;
+        height: 104px;
+        margin-top: -140px;
+        margin-left: -30px;
+    }
+
+    #logo-telepon{
+        top: 230px;
+    }
+    
+    #logo-website{
+        top: 280px;
+    }
+    
+    #logo-email{
+        top: 330px;
+    }
+    
+    #logo-location{
+        top: 380px;
+    }
+
+    #gridcontainer2 span{
+        font-size: 15px;
+    }
+    
+    #logo-telepon span{
+        top: -105px;
+        left: -210px;
+    }
+    
+    #logo-website span{
+        top: -105px;
+        left: -210px;
+    }
+    
+    #logo-email span{
+        top: -103px;
+        left: -210px;
+    }
+    
+    #logo-location span{
+        left: 40px;
+        top: -103px;
+    }
+
+    #garis{
+        top: 228px;
+        left: 370px;
+    }
+
+    #form{
+        font-size: 25px;
+        margin-left: 410px;
+        top: 280px;
+    }
+
+    #nama{
+        font-size: 20px;
+        left: -35px;
+        top: 60px;
+    }
+    
+    #kolom-nama{
+        width: 360px;
+        height: 40px;
+        left: -20px;
+        top: 100px;
+    }
+
+    #umur{
+        font-size: 20px;
+        left: -35px;
+        top: 150px;
+    }
+    
+    #kolom-umur{
+        width: 55px;
+        height: 50px;
+        top: 190px;
+        left: -20px;
+    }
+    
+    #laki-laki{
+        font-size: 20px;
+        left: 70px;
+        top: 195px;
+    }
+    
+    #kolom-sex1{
+        height: 15px;
+        top: 208px;
+        left: 155px;
+    }
+    
+    #perempuan{
+        font-size: 20px;
+        left: 230px;
+        top: 195px;
+    }
+    
+    #kolom-sex2{
+        height: 15px;
+        top: 208px;
+        left: 207px;
+    }
+    
+    #email{
+        font-size: 20px;
+        left: -35px;
+        top: 250px;
+    }
+    
+    #kolom-email{
+        width: 360px;
+        height: 40px;
+        left: -20px;
+        top: 290px;
+    }
+    
+    #country{
+        font-size: 20px;
+        left: -36px;
+        top: 340px;
+    }
+    
+    #kolom-negara{
+        width: 360px;
+        height: 40px;
+        left: -20px;
+        top: 380px;
+    }
+    
+    #message{
+        font-size: 20px;
+        left: -35px;
+        top: 425px;
+    }
+    
+    #kolom-pesan{
+        width: 360px;
+        height: 255px;
+        left: -20px;
+        top: 465px;
+    }
+    
+    #kolom-setuju{
+        height: 15px;
+        top: 736px;
+        left: -23px;
+    }
+    
+    #setuju{
+        font-size: 15px;
+        left: 0px;
+        top: 730px;
+    }
+    
+    #kirim{
+        width: 70px;
+        height: 25px;
+        top: 790px;
+        right: 10px;
+        font-size: 10px;
+    }
+
+    #error{
+        top: 785px;
+        font-size: 13px;
+        left: 0px;
+    }
+
+    /* Location */
+    #titlelokasi{
+        font-size: 20px;
+    }
+    
+    #lokasi1{
+        width: 400px;
+        height: 328px;
+        margin-left: 200px;
+    }
+    
+    #fotolokasi1{
+        width: 400px;
+        height: 185px;
+    }
+    
+    #negara{
+        width: 65px;
+    }
+    
+    #textlokasi1-title{
+        padding-top: 190px;
+        padding-left: 85px;
+        font-size: 20px;
+    }
+    
+    #textlokasi1-alamat{
+        padding-top: 230px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    
+    #textlokasi1-nomortelepon{
+        padding-top: 280px;
+        padding-left: 270px;
+        font-size: 18px;
+    }
+    
+    #lokasi2{
+        width: 400px;
+        height: 328px;
+        margin-right: 200px;
+    }
+    
+    #fotolokasi2{
+        width: 400px;
+        height: 185px;
+    }
+    
+    #textlokasi2-title{
+        padding-top: 190px;
+        padding-left: 65px;
+        font-size: 20px;
+    }
+    
+    #textlokasi2-alamat{
+        padding-top: 230px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    
+    #textlokasi2-nomortelepon{
+        padding-top: 280px;
+        padding-left: 270px;
+        font-size: 18px;
+    }
+    
+    #lokasi3{
+        width: 400px;
+        height: 328px;
+        margin-left: 200px;
+    }
+    
+    #fotolokasi3{
+        width: 400px;
+        height: 185px;
+    }
+
+    #textlokasi3-title{
+        padding-top: 190px;
+        padding-left: 65px;
+        font-size: 20px;
+    }
+    
+    #lokasi4{
+        width: 400px;
+        height: 328px;
+        margin-right: 200px;
+    }
+    
+    #fotolokasi4{
+        width: 400px;
+        height: 185px;
+    }
+
+    #textlokasi4-title{
+        padding-top: 190px;
+        padding-left: 65px;
+        font-size: 20px;
+    }
+
+    /* Footer */
+    footer{
+        width: 800px;
+        height: 350px;
+    }
+    
+    footer ul{
+        font-size: 18px;
+        left: 15px;  
+    }
+    
+    footer ul li{
+        font-size: 15px;
+    }
+    
+    #informasi{
+        left: 300px;
+    }
+    
+    #metode{
+        font-size: 18px;
+        left: 500px;
+    }
+    
+    #mastercard{
+        width: 150px;
+        height: 75px;
+        top: 50px;
+        right: 180px;
+    }
+    
+    #mastercard img{
+        width: 70px;
+        height: 45px;
+        padding-top: 15px;
+        padding-left: 45px;
+    }
+    
+    #ovo{
+        width: 150px;
+        height: 75px;
+        top: 135px;
+        right: 180px;
+    }
+    
+    #ovo img{
+        width: 100px;
+        height: 45px;
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    
+    #gopay{
+        width: 150px;
+        height: 75px;
+        top: 95px;
+        right: 20px; 
+    }
+    
+    #gopay img{
+        width: 120px;
+        height: 80px;
+        padding-top: 0px;
+        padding-left: 19px;
+    }
+    
+    #alamat span{
+        font-size: 15px;
+        padding-top: 240px;
+        left: 15px;
+    }
+    
+    #hakcipta{
+        font-size: 13px;
+        padding-top: 250px;
+        padding-right: 20px;
+    }
+
+    /* Navbar */
+    nav{
+        width: 800px;    
+    }
+      
+    nav ul li{
+        padding: 54px 16px 16px 5px;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+
+
+
+
+    
+    
+    
+    
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

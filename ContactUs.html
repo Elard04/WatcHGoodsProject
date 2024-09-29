@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak WatcHGoods</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="./Assets/Logo.png" alt="Logo WatcHGoods">
+        <ul>
+            <li><a href="Location.html">Lokasi</a></li>
+            <li><a href="ContactUs.html">Kontak Kami</a></li>
+            <li><a href="AboutUs.html">Tentang Kami</a></li>
+            <li><a href="Products.html">Produk</a></li>
+            <li><a href="Homepage.html">Beranda</a></li>
+        </ul>
+    </nav>
+    <br><br><br><br><br><br><br><br><br>
+    <h3 id="kontak-kami">Kontak Kami</h3>
+
+    <div id="kotak-background">
+        <div id="square1">
+            <div id="square2">
+                <span id="kontak-header">Kontak WatcHGoods</span>
+            </div>
+            <div id="gridcontainer2">
+                <div id="logo-telepon">
+                    <img src="./Assets/logotelepon.png" alt="Logo telepon">
+                    <span>+6281234567890</span>
+                </div>
+                <div id="logo-website"> 
+                    <img src="./Assets/logowebsite.png" alt="Logo website">
+                    <span>www.watchgoods.com</span>
+                </div>
+                <div id="logo-email">
+                    <img src="./Assets/logoemail.png" alt="Logo email">
+                    <span>watchgoodsofficial@watchgoods.com</span>
+                </div>
+                <div id="logo-location">
+                    <img src="./Assets/logolocation.png" alt="Logo location">
+                    <span>Indonesia</span>
+                </div>
+            </div>
+        </div>
+        <div id="garis"></div>
+        <div id="form">
+            <span>Formulir Data Diri Pelanggan</span>
+            <form>
+                <div>
+                    <label for="nama" id="nama">Nama Lengkap</label>
+                    <input type="text" name="nama" id="kolom-nama">
+                </div>
+                <div>
+                    <label for="umur" id="umur">Umur</label>
+                    <input type="number" name="umur" id="kolom-umur">
+                </div>
+                <div>
+                    <label for="laki-laki" id="laki-laki">Laki-laki</label>
+                    <input type="radio" name="sex" id="kolom-sex1">
+                    <label for="perempuan" id="perempuan">Perempuan</label>
+                    <input type="radio" name="sex" id="kolom-sex2">
+                </div>
+                <div>
+                    <label for="email" id="email">Email</label>
+                    <input type="email" name="email" id="kolom-email">
+                </div>
+                <div>
+                    <label for="country" id="country">Kewarganegaraan</label>
+                    <input type="text" name="country" id="kolom-negara">
+                </div>
+                <div>
+                    <label for="message" id="message">Pesan</label>
+                    <input type="text" name="message" id="kolom-pesan">
+                </div>
+                <div>
+                    <label for="setuju" id="setuju">Saya setuju untuk mendapatkan pesan salinan dari WatcHGoods</label>
+                    <input type="checkbox" name="setuju" id="kolom-setuju">
+                </div>
+            </form>
+            <button type="button" onclick="kirim()" id="kirim">Kirim</button>
+            <h4 id="error"></h4>
+        </div>
+    </div>
+    <br><br><br>
+    <footer>
+        <ul>
+            <h4>LAYANAN MASYARAKAT</h4>
+            <li>Servis & Suku Cadang</li>
+            <li>Layanan Pengaduan</li>
+        </ul>
+
+        <ul id="informasi">
+            <h4>INFORMASI</h4>
+            <li>Cara Pembayaran</li>
+            <li>Syarat & Ketentuan</li>
+            <li>Kebijakan Privasi</li>
+            <li>FAQ</li>
+            <li>Artikel</li>
+            <li>Testimonial</li>
+        </ul>
+
+        <h4 id="metode">METODE PEMBAYARAN</h4>
+        <div id="mastercard">
+            <img src="./Assets/LogoMastercard.png" alt="Mastercard">
+        </div>
+        <div id="ovo">
+            <img src="./Assets/LogoOVO.png" alt="OVO">
+        </div>
+        <div id="gopay">
+            <img src="./Assets/LogoGopay.png" alt="Gopay">
+        </div>
+
+        <div id="alamat">
+            <span>PT WatcHGoods Multimedia</span>
+            <br>
+            <span>Jln. Kedamaian Raya Blok 1A No. 5, Jakarta Selatan, Indonesia</span>
+            <br>
+            <span>watchgoodsofficial@watchgoods.com</span>
+        </div>
+
+        <div id="hakcipta">©WatcHGoods, 2023. ALL RIGHTS RESERVED</div>
+        
+    </footer>
+
+
+</body>
+</html>
